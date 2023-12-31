@@ -2,8 +2,23 @@ body {
   font-family: arial,sans-serif;
 }
 
-div {
-  display: block;
+
+
+.container {
+  display: flex;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  width:650px;
+}
+
+.element1 {
+  flex: 1;
+  
+}
+
+.element2 {
+  flex: 1.85;
+  
 }
 
 .button {
@@ -49,6 +64,7 @@ div {
 
 .advanced_text_field {
   display: inline-block;
+  width: 400px;
 
 }
 
@@ -64,6 +80,9 @@ div {
   line-height: 27px;
   min-width: 54px;
   outline: 0;
+  background-color:#3079ed; 
+  border: 1px solid #3079ed;
+  color: #fff;
 
 
 }

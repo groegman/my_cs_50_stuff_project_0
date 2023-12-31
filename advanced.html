@@ -7,25 +7,28 @@
     <body>
         <div style="text-align: right;"><a class="navi_link" href="index.html">Back to Standard Search</a></div>
         <div class="advanced_heading">Advanced Search</div>
-        
-        <div class="advanced_align"><form action="https://www.google.com/search">
-            <div>
-                <div class="advanced_text_labels">“all these words:”</div>
-                <div class="advanced_text_field"><input type="text" name="as_q"></div>
-                <div><p style="text-align: left;">“this exact word or phrase:”</p></div>
-                <p style="text-align: left;">“any of these words:”</p>
-                <p style="text-align: left;"> “none of these words:”</p>
-            </div>
-            <div style="float: left">
+        <div class="container">
+            <div class="element1">“this exact word or phrase:”</div>
+
+            <div class="element2"><form action="https://www.google.com/search"><input class="advanced_text_field" type="text" name="as_q"></div>
                 
-                <p style="text-align: left;"><input type="text" name="as_epq" style="border-radius: 0.25rem; cursor: pointer; padding: 0.25rem 1rem;"></p>
-                <p style="text-align: left;"><input type="text" name="as_oq" style="border-radius: 0.25rem; cursor: pointer; padding: 0.25rem 1rem;"></p>
-                <p style="text-align: left;"><input type="text" name="as_eq" style="border-radius: 0.25rem; cursor: pointer; padding: 0.25rem 1rem;"></p>
-                <p style="text-align: right;"><input type="submit" value="Advanced Search" class="advanced_button"></p>
-            </div>
-            
-        </form>
-        </p>
         </div>
+        <div class="container">
+            <div class="element1">“any of these words:”</div>
+            <div class="element2"><input class="advanced_text_field" type="text" name="as_epq"></div>
+        </div>     
+        <div class="container">
+            <div class="element1">“none of these words:”</div>
+            <div class="element2"><input class="advanced_text_field" type="text" name="as_oq"></div>
+        </div>
+        <div class="container">
+            <div class="element1">“all these words:”</div>
+            <div class="element2"><input class="advanced_text_field" type="text" name="as_eq"></div>
+        </div>
+        <div class="container">
+            <div class="element1"></div>
+            <div class="element2" style="text-align: right;"><input type="submit" value="Advanced Search" class="advanced_button"></form></div>
+        </div>
+            
     </body>
 </html>
